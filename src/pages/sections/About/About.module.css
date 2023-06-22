@@ -1,0 +1,35 @@
+.about {
+  background-color: #f3e0d6;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+  gap: 10px;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.description {
+  white-space: pre-wrap;
+  /* font-weight: lighter; */
+  font: normal normal normal 15px/1.875em raleway,sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .about {
+    padding: 30px;
+    text-align: left;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+}

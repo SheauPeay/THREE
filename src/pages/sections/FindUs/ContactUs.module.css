@@ -1,0 +1,37 @@
+.contact {
+  background-color: rgb(255, 238, 224);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 50px 30px;
+  text-align: center;
+  gap: 40px;
+}
+
+.header {
+  font-size: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.section a {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+}

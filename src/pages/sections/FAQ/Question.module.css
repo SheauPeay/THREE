@@ -1,0 +1,36 @@
+.questions {
+  text-align: left;
+  padding: 15px;
+  border-bottom: 1px solid brown;
+}
+
+.question {
+  font :18px / 1.67em raleway, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.question:hover {
+  cursor: pointer;
+}
+
+.answer {
+  font: 18px / 1.75em raleway, sans-serif;
+  white-space: pre-wrap;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 768px) {
+  .questions {
+    padding: 10px;
+  }
+
+  .question {
+    font-size: 15px;
+  }
+
+  .answer {
+    font-size: 15px;
+  }
+}

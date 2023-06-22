@@ -1,0 +1,51 @@
+.home {
+  background-image: url(./wlcto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.overlay {
+  height: 250px;
+  background: rgba(255,249,236, 0.64);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+
+.slogan {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 768px) {
+  .home {
+    object-fit: fill;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top: 5px solid black;
+    height: 360px;
+    justify-content: flex-end;
+    margin-top: 100px;
+  }
+
+  .overlay {
+    height: 150px;
+  }
+
+  .header {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+}

@@ -1,0 +1,145 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.header {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.description {
+  margin: 20px 0 30px 0;
+}
+
+.dishes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dessert {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+}
+
+.dessertImgWrapper {
+  width: 25%;
+}
+
+.dessertCenter {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(252,248,237);
+  gap: 20px;
+}
+
+.dessertHeader {
+  font-size: 40px;
+  font-weight: normal;
+  color: #908660;
+  text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+  line-height: 0.5em;
+  font-family: cormorantgaramond-semibold,cormorantgaramond,cormorant garamond,serif;
+}
+
+.dessertDesc {
+  font-size: 22px;
+  padding: 0px 20px;
+  font-family: futura-lt-w01-book,futura-lt-w05-book,sans-serif;
+  letter-spacing: 2px;
+}
+
+.dessertText {
+  white-space: pre-wrap;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.dessertLeft {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.dessertRight {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.download {
+  display: flex;
+  padding: 20px 0;
+}
+
+.btnMenu {
+  background-color: #956e46;
+  color: white;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .description {
+    margin: 10px 0 20px 0;
+  }
+
+  .dessert {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .dessertImgWrapper {
+    width: 100%;
+    height: 150px;
+  }
+
+  .dessertLeft {
+    object-position: 0%;
+  }
+
+  .dessertRight {
+    object-position: 0%;
+  }
+
+  .dessertCenter {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .dessertHeader {
+    font-size: 30px;
+  }
+
+  .dessertDesc {
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  .dessertText {
+    font-size: 15px;
+    letter-spacing: normal;
+  }
+
+  .btnMenu {
+    letter-spacing: normal;
+  }
+}

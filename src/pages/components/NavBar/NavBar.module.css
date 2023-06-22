@@ -1,0 +1,60 @@
+.navBar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  transition: top 0.5s;
+  z-index: 10;
+  top: 0;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+.nav {
+  background-color: #908660;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.nav a {
+  font-family: optima;
+  font-size: small;
+  color: white;
+  padding-left: 1rem;
+}
+
+.nav a:hover {
+  cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navBar {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+  }
+
+  .logo {
+    width: 70%;
+    height: auto;
+    margin-top: initial;
+  }
+
+  .nav {
+    display: none;
+    visibility: hidden;
+  }
+  
+  .mobileMenu {
+    display: initial;
+  }
+}

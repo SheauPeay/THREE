@@ -1,0 +1,40 @@
+.faq {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px 30px 30px;
+  align-items: center;
+  background-color: rgb(255,254,248);
+}
+
+.header {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.questions {
+  max-width: 1000px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note {
+  margin-top: 50px;
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+}
+
+@media only screen and (max-width: 768px) {
+  .faq {
+    padding: 20px;
+  }
+
+  .header {
+    font-size: 30px;
+  }
+
+  .note {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.btnScroller {
+  background-color: rgb(144,134,96);
+  border: none;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  opacity: 70%;
+  z-index: 9;
+}
+
+.btnScroller:hover {
+  cursor: pointer;
+}
+
+.arrowUp {
+  color: white;
+}
