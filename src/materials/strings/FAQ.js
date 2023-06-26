@@ -33,3 +33,5 @@ export const questions = [
     answer: <p>Yes! Kindly write in to <a styles={{textDecoration: "underline"}} href="mailto:threeincgroup@gmail.com">threeincgroup@gmail.com</a>, or drop us a text at +65 8027 1333 to explore collaboration opportunities - dining vouchers, bulk discounts, corporate events and more!</p>
   }
 ]
+
+export const note = "Still can't find what you're looking for? Drop us a call and we'll answer your questions!"

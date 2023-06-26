@@ -10,7 +10,7 @@ const Menu = () => {
       <p className={styles.description}>{description}</p>
       <div className={styles.dishes}>
         {food.map(value => 
-          <MenuItem name={value.name} img={value.img}/>
+          <MenuItem key={value} name={value.name} img={value.img}/>
         )}
       </div>
       <Dessert />

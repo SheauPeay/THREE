@@ -42,7 +42,7 @@ const NavBar = () => {
 
   return (
     <div className={styles.navBar} id="navBar">
-      <Image className={styles.logo} src={logo}/>
+      <Image className={styles.logo} src={logo} alt={logo}/>
       <AiOutlineMenu size={30} onClick={handleClick} className={styles.mobileMenu}/>
 
       {isMenuOpen && <Modal component={<MobileNav close={closeModal}/>}/>}
