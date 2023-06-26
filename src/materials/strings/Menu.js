@@ -7,7 +7,7 @@ import friedChicken from "../../materials/images/friedChicken.png"
 import grilledChicken from "../../materials/images/grilledChicken.png"
 import gadogado from "../../materials/images/gadogado.png"
 import kolakPisang from "../../materials/images/kolakPisangMobile.png"
-import bananaFritter from "../../materials/images/BananaFritterMobile.png"
+import bananaFritter from "../../materials/images/bananaFritterMobile.png"
 
 export const header = "Browse Our Menu"
 export const description = "Delightfully curated for the special you!"
